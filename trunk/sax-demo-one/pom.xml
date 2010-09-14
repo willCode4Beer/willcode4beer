@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.willcode4beer.demo</groupId>
+	<artifactId>sax-one</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>sax-demo-one</name>
+	<packaging>jar</packaging>
+
+	<developers>
+		<developer>
+			<id>pdavis</id>
+			<name>Paul Davis</name>
+			<email>feedback@willcode4beer.com</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.compiler.version}</source>
+					<target>${jdk.compiler.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<properties>
+		<jdk.compiler.version>1.6</jdk.compiler.version>
+		<junit.version>4.8.1</junit.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+</project>

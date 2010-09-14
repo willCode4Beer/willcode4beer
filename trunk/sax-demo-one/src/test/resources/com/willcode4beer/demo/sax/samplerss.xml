@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+
+	<channel>
+		<atom:id>http://willcode4beer.com</atom:id>
+		<lastBuildDate>Mon, 23 Aug 2010 10:10:00 PST</lastBuildDate>
+		<language>en-us</language>
+		<title>willCode4Beer</title>
+		<description>My online developer's notebook. Thoughts, ideas, tips, tricks, opinions and wild rants about the web, Java, J2EE, Linux and whatever bugs me at the moment</description>
+		<link>http://willcode4beer.com/</link>
+		<managingEditor>Paul E. Davis &lt;feedback@willcode4beer.com&gt;</managingEditor>
+		<copyright>Copyright 2002-2010, Paul E. Davis</copyright>
+		
+		<atom:link href="http://willcode4beer.com/willcode4beer.rss" rel="self" type="application/rss+xml" />
+		<item>
+			<pubDate>Mon, 23 Aug 2010 10:05:00 PST</pubDate>
+			<title>Stupid Java Trick: Blocking Screensavers</title>
+			<description><![CDATA[
+			<p>
+			A simple, yet useful trick: 
+			five lines of code to disable your screensaver.
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/tips.jsp?set=disable_screensaver</link>
+			<author>Paul Davis &lt;feedback@willcode4beer.com&gt;</author>
+		</item>
+		<item>
+			<pubDate>Fri, 06 Aug 2010 10:05:00 PST</pubDate>
+			<title>Review of Eclipse Helios</title>
+			<description><![CDATA[
+			<p>
+			My review of the latest Eclipse release 3.6 Helios
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=helios_review</link>
+			<author>Paul Davis &lt;feedback@willcode4beer.com&gt;</author>
+		</item>
+
+		<item>
+			<pubDate>Sun, 23 May 2010 10:05:00 PST</pubDate>
+			<title>Maker Faire 2010</title>
+			<description><![CDATA[
+			<p>
+			I took a trip to the Bay Area maker Faire yesterday.
+			These are just a few pictures
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=makerfaire_2010</link>
+			<author>Paul Davis &lt;feedback@willcode4beer.com&gt;</author>
+		</item>
+		
+		<item>
+			<pubDate>Wed, 02 Sep 2009 10:05:00 PST</pubDate>
+			<title>Viewing ATOM/RSS with jQuery</title>
+			<description><![CDATA[
+			<p>
+			The jQuery library is a great library for easy Ajax and XML scripting.
+			In this article, we'll explore the Ajax and XML scripting features to create an
+			ATOM/RSS reader which displays your webpage's feeds for ease of access and
+			reading without having to leave your site to go to their ATOM/RSS aggregator(s).
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/ware.jsp?set=jquery_rss</link>
+			<author>Jeremy Miller&lt;feedback@willcode4beer.com&gt;</author>
+			<category>jQuery</category>
+			<category>javascript</category>
+			<category>ATOM</category>
+			<category>RSS</category>
+			<category>WebDesign</category>
+		</item>
+		
+		<item>
+			<pubDate>Thu, 20 Aug 2009 19:05:00 PST</pubDate>
+			<title>Tomcat Configuration Using CATALINA_BASE</title>
+			<description><![CDATA[
+			<p>
+			Setting up apache tomcat by externalizing the application deployment space with CATALINA_BASE
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/ware.jsp?set=tomcat_config</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>tomcat</category>
+			<category>CATALINA_BASE</category>
+		</item>
+		
+		<item>
+			<pubDate>Thu, 13 Aug 2009 19:05:00 PST</pubDate>
+			<title>Putting an End to System.out.println (or using jUnit, log4j and Chainsaw)</title>
+			<description><![CDATA[
+			<p>
+			We've all done it, trying to investigate some problem, we write some println()'s. I'm pretty sure we all accidentally left them in some production code too. We hate them in our own code, we hate them in other people's code. At some point, many switch to logging. Hey, we can just change the log level to filter out things of lesser importance. 
+			</p>
+			<p>
+			But, when I'm working on a problem, I don't want all the DEBUG messages, just the ones relevant to the task at hand. 
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/design.jsp?set=junit_log4j_chainsaw</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>chainsaw</category>
+			<category>log4j</category>
+			<category>junit</category>
+		</item>
+		
+		<item>
+			<pubDate>Mon, 10 Aug 2009 19:05:00 PST</pubDate>
+			<title>Brooke White Performs at the Office</title>
+			<description><![CDATA[
+			<p>
+			Today we had another visitor, Brooke White, come to the office to perform. She was in to promote her new album: High Hopes and Heartbreak. 
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=Brooke_White</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>Rhapsody</category>
+			<category>Brooke White</category>
+		</item>
+		
+		<item>
+			<pubDate>Tue, 07 Jul 2009 19:05:00 PST</pubDate>
+			<title>Hosting Spring Modules Schemas</title>
+			<description><![CDATA[
+			<p>
+			I decided to host the Spring Modules (springmodules.org) schemas.
+			Kiss those XML validation errors goodbye
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=springmodules</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>Spring Modules</category>
+			<category>springmodules</category>
+		</item>
+		<item>
+			<pubDate>Mon, 06 Jul 2009 19:00:00 PST</pubDate>
+			<title>Howto Create a 3D Logo With Adobe Illustrator</title>
+			<description><![CDATA[
+			<p>
+			A tutorial decribing how to create a 3D Logo
+			for software or a website using Adobe Illustrator.
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/ware.jsp?set=3dlogo</link>
+			<author>Robert Kerr &lt;feedback@willcode4beer.com&gt;</author>
+			<category>Graphic Design</category>
+			<category>Logo Design</category>
+			<category>3D Logo Design</category>
+			<category>Adobe Illustrator</category>
+		</item>
+		
+		<item>
+			<pubDate>Fri, 26 Jun 2009 19:00:00 PST</pubDate>
+			<title>A Review of Eclipse Galileo for Java EE 3.5</title>
+			<description><![CDATA[
+			<p>
+			The final release of Eclipse Galileo has arrived. I'm a heavy Eclipse user so,
+			it's time to upgrade and put it through its paces. I'm using the version for
+			Java EE developers on Kubuntu 9.04. 
+			</p>
+			<p>
+			I tell my experience and thoughts, the good, the bad, and the ugly.
+			<a href="http://willcode4beer.com/opinion.jsp?set=galileo_review" title="A Review of Eclipse Galileo for Java EE 3.5">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=galileo_review</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>Eclipse</category>
+			<category>review</category>
+			<category>Eclipse Galileo</category>
+		</item>
+		
+		<item>
+			<pubDate>Thu, 04 Jun 2009 19:00:00 PST</pubDate>
+			<title>Howto Create an AJAX Comment Form with MooTools </title>
+			<description><![CDATA[
+			<p>
+			A tutorial decribing how to create an AJAX Comment Form with the
+			MooTools javascript framework.
+			</p>
+			<p>
+			This one is fairly comprehensive in, it starts with the HTML, sprinkles on
+			some css, explains the Javascript (MooTools) integrations and even provides
+			a little PHP for the serverside.
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/ware.jsp?set=mooToolsComment</link>
+			<author>Benjamin Kuker &lt;feedback@willcode4beer.com&gt;</author>
+			<category>Graphic Design</category>
+			<category>javascript</category>
+			<category>ajax</category>
+			<category>MooTools</category>
+		</item>
+		<item>
+			<pubDate>Sat, 30 May 2009 19:00:00 PST</pubDate>
+			<title>Howto Create a Web 2.0 Logo With Adobe Illustrator</title>
+			<description><![CDATA[
+			<p>
+			A tutorial decribing how to create a Web 2.0 style logo
+			for software or a website using Adobe Illustrator.
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/ware.jsp?set=illustratorLogoTutorial</link>
+			<author>Robert Kerr &lt;feedback@willcode4beer.com&gt;</author>
+			<category>Graphic Design</category>
+			<category>Logo Design</category>
+			<category>Adobe Illustrator</category>
+		</item>
+		
+		<item>
+			<pubDate>Tue, 21 Apr 2009 19:00:00 PST</pubDate>
+			<title>Kenny Loggins and Melanie Fiona Visit Today</title>
+			<description><![CDATA[
+			<p>
+				We had a few visitors today.
+				I just posted a few pics.
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=officeVisitors</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>Melanie Fiona</category>
+			<category>Kenny Loggins</category>
+		</item>
+		
+		<item>
+			<pubDate>Tue, 31 Mar 2009 01:00:00 PST</pubDate>
+			<title>The Paradox of Programming Languages</title>
+			<description><![CDATA[
+			<p>
+I find it interesting that languages designed for non-programmers always result in and epic fail. The two most well know examples are COBOL and Visual Basic. While the languages themselves took off, you rarely hear anything good said about either. 
+			</p>
+			<p>
+OTOH, Lanaguages designed for programmers and engineers tend to do well. Though there are epic battles (Ruby vs Java  for example), they are taken seriously. 
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=languageParadox" title="The Paradox of Programming Languages">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=languageParadox</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>programming languages</category>
+		</item>
+		
+		<item>
+			<pubDate>Wed, 25 Mar 2009 01:00:00 PST</pubDate>
+			<title>Software Development Philosophy Over Methodology</title>
+			<description><![CDATA[
+			<p>
+We've seen all of the arguments about software development methodologies. There's waterfall, where Dr. Winston W. Royce points out the problems while promoting the method. There's the heated (to say heated is an understatement, is an understatement) debates over XP, Scrum, ad nauseum. The arguments rarely result in new useful information. They always end in the state of "my way is better than yours." 			
+			</p>
+			<p>
+			I want to move to the next level. Let's talk about software development philosophies. Because, I think these have a much greater impact on software development than methodologies. Pick a methodology. It has a record of amazing success in one place and utter failure in another. 
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=philosophyOverMethod" title="Software Development Philosophy Over Methodology">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=philosophyOverMethod</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>methodology</category>
+			<category>application design</category>
+		</item>
+		<item>
+			<pubDate>Tue, 24 Mar 2009 01:00:00 PST</pubDate>
+			<title>Unix Philosophy in Application Architecture</title>
+			<description><![CDATA[
+			<p>
+			First, let me sum up how I see the fundamental part of Unix Philosophy  "write small simple things that do one thing well".
+			These things can be wired-up at a higher level of abstraction.
+			In Unix, this is done with shell scripts or other programs.
+			</p>
+			<p>
+			In designing applications, we should embrace this at every level, methods (or functions), classes, packages, modules, services, etc... 
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=unixPhilosophyAppDesign" title="Unix Philosophy in Application Architecture">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=unixPhilosophyAppDesign</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>methodology</category>
+			<category>application design</category>
+		</item>
+		
+		<item>
+			<pubDate>Thu, 26 Feb 2009 00:10:00 PST</pubDate>
+			<title>Product Usability</title>
+			<description><![CDATA[
+			<p>
+			Product usability is a joke in our technologic world.
+			The Onion tells it like it is.
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=usability" title="Product Usability">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=usability</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>usability</category>
+		</item>
+		<item>
+			<pubDate>Tue, 27 Jan 2009 21:30:00 PST</pubDate>
+			<title>Rethinking Java Beans</title>
+			<description><![CDATA[
+			<p>
+			Lately I've been challenging all of the conventions that we follow.
+			One that has bothered me for a while is our obsession with the bean pattern.
+			The Java Bean pattern originated around building GUIs.
+			It made for an easy way to use reflection to read the properties of an object.
+			However, the pattern is just heavy for how they are generally used, a Java version of a C struct. 
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/design.jsp?set=rethinkingBeans" title="Rethinking Java Beans">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/design.jsp?set=rethinkingBeans</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>code quality</category>
+			<category>java</category>
+			<category>best practices</category>
+		</item>
+		
+		<item>
+			<pubDate>Tue, 13 Jan 2009 21:30:00 PST</pubDate>
+			<title>Should you have a code nazi?</title>
+			<description><![CDATA[
+			<p>
+				Code reviews never happen often enough.
+				There's rarely enough time to mentor junior developers.
+				Pair-programming doesn't happen as often as it should.
+				Should teams create a rotating-role of Code Nazi?
+				Someone who'd job is to look for potential problems and ensure they get fixed. 
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=codeNazi" title="Should you have a code nazi?">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=codeNazi</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>code quality</category>
+			<category>mentoring</category>
+		</item>
+		
+		<item>
+			<pubDate>Wed, 07 Jan 2009 09:00:00 PST</pubDate>
+			<title>Lead Developer, Are You Mentoring?</title>
+			<description><![CDATA[
+			<p>
+			Every year, the topic of NNPP's (net negative producing programmer) comes up.
+			Though the language varies the gist is the same.
+			Usually, posts talk about the problems with these developers and how to marginalize or eliminate them.
+			In many organizations, this can be difficult or impossible. 
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=fixing_nnpp" title="Lead Developer, Are You Mentoring?">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=fixing_nnpp</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>mentoring</category>
+		</item>
+
+		<item>
+			<pubDate>Mon, 05 Jan 2009 09:00:00 PST</pubDate>
+			<title>Do We Hurt By Helping?</title>
+			<description><![CDATA[
+			<p>
+			Often, the more more senior developers are the targets for questions by junior developers.
+			The intermediate level often just answer the question. The battle-hardened will ask why.
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=preventing_wtf" title="Preventing WTF">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=preventing_wtf</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>mentoring</category>
+		</item>
+		
+		<item>
+			<pubDate>Mon, 05 Jan 2009 06:00:00 PST</pubDate>
+			<title>The Dysfunctional State of Bug Tracking</title>
+			<description><![CDATA[
+			<p>
+			 The first indication that something is wrong is the enormity of the list of Bug/Issue trackers on wikipedia.
+			 Next, the rarity of published (and known) best practices for bug reporting/tracking.
+			 Finally, there seems to be little consensus about the work flow around bug management.
+			</p>
+			<p>
+			 In most organizations, bug and issue tracking knowledge is picked up anecdotally through the culture of an organization.
+			 The plethora of available software to track bugs with is evidence that the practices are so varied that no system can be used ubiquitously.
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/opinion.jsp?set=state_of_bug_trackers" title="The Dysfunctional State of Bug Tracking">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/opinion.jsp?set=state_of_bug_trackers</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>bug tracking</category>
+			<category>bug tracking best practices</category>
+		</item>
+		
+		<item>
+			<pubDate>Wed, 17 Dec 2008 06:00:00 PST</pubDate>
+			<title>About willCode4Beer and Me</title>
+			<description><![CDATA[
+			<p>
+			This is my site, it is my conversation with you and anyone interested.<br />
+			It's my notebook.<br />
+			It's my little place on the web.<br />
+			</p>
+			<p>
+			   <a href="http://willcode4beer.com/about.jsp" title="About willCode4Beer.com">more...</a>
+			</p>
+			]]></description>
+			<link>http://willcode4beer.com/about.jsp</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+		</item>
+		
+		<item>
+			<pubDate>Wed, 10 Dec 2008 06:00:00 PST</pubDate>
+			<title>Code Reduction or Spartan Programming</title>
+			<description>
+			You don't have to maintain or document the code you don't write.
+ 			Less code is eaiser to maintain and will have fewer bugs.
+			Using spartan programming techniques can help create higher quality
+			software with less pain.
+			</description>
+			<link>http://willcode4beer.com/design.jsp?set=codeReduction</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+			<category>java</category>
+			<category>best practices</category>
+			<category>spartan programming</category>
+			<category>code quality</category>
+		</item>
+		
+		<item>
+			<pubDate>Wed, 03 Dec 2008 09:00:00 PST</pubDate>
+			<title>Kill Your Database with Terracotta</title>
+			<description>
+			The idea of network attached shared memory makes me want to re-think the
+			whole scheme of data persistence. I'm tired of blindly using a RDBMS when
+			another option could be much better.
+			</description>
+			<link>http://willcode4beer.com/design.jsp?set=kill_your_db</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+		</item>
+		
+		<item>
+			<pubDate>Tue, 18 Nov 2008 09:00:00 PST</pubDate>
+			<title>In Favor of RDD</title>
+			<description>
+			An Argument in Favor of Resume Driven Development
+			</description>
+			<link>http://willcode4beer.com/opinion.jsp?set=in_favor_of_rdd</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+		</item>
+		
+		<item>
+			<pubDate>Wed, 15 Oct 2008 15:00:00 PST</pubDate>
+			<title>Annotations Gotchas and Best Practices</title>
+			<description>
+			Discussion about the ways to use annotations (in Java) and when to avoid them
+			</description>
+			<link>http://willcode4beer.com/opinion.jsp?set=annotations_gotchas_best_practices</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+		</item>
+		<item>
+			<pubDate>Mon, 22 Sep 2008 09:00:00 PST</pubDate>
+			<title>A Linux User Tries Going Mac</title>
+			<description>
+			Logging my experience trying to migrate to a Mac for development.
+			</description>
+			<link>http://willcode4beer.com/opinion.jsp?set=linux_user_tries_mac</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>opinion</category>
+		</item>
+		<item>
+			<pubDate>Tue, 24 Jun 2008 15:08:00 PST</pubDate>
+			<title>Maven Tab Auto Completion in Bash</title>
+			<description><![CDATA[
+				<p>Anyone using Maven  has no doubt become fatigued with the long command line options and suffered from dumb typos. Then again, maybe it's just me....</p>
+				<p>I'm a big fan of auto-completion in the bash shell. So, I decided it was long past time to set-up auto completion goodness for my maven commands.</p>
+				<p>There are a couple of steps to this. First, make sure you have bash completion installed (most linux distros do by default). Next, is to install the maven completion file. </p>
+			]]></description>
+			<link>http://willcode4beer.com/tips.jsp?set=tabMaven</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>maven</category>
+			<category>bash</category>
+			<category>auto completion</category>
+			<category>completion</category>
+		</item>
+		<item>
+			<pubDate>Tue, 27 May 2008 08:08:00 PST</pubDate>
+			<title>Maven2 Integration Tests</title>
+			<description>
+				It seems like integration tests with Maven are an afterthought.
+
+				Don't get me wrong, I think Maven is one of the best build tools so far. Sure, it has its warts, the documentation is weak (at best), and the learning curve is steep. But, once you get a project going, it's pretty much smooth sailing. Telling people how to build a project is reduced to saying, check it out of version control and run "mvn package". Want to run a local copy of the app, "mvn tomcat:run". Pretty sweet.
+			</description>
+			<link>http://willcode4beer.com/opinion.jsp?set=maven2_integration-test</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+			<category>java</category>
+			<category>screenshot</category>
+		</item>
+		<item>
+			<pubDate>Mon, 11 Feb 2008 08:08:00 PST</pubDate>
+			<title>Bubble/Balloon Tooltips</title>
+			<description><![CDATA[
+				<p>The default tooltips shown by browsers for the title attribute of an element can leave a bit to be
+				desired.</p>
+
+				<p>Here I will present a technique to display custom tooltips in a little balloon or bubble. The
+				application will require one image, a little bit of CSS, and some javascript. The image, shown on the
+				right, is just a GIF file. Normally, I'd recommend a PNG, but, Internet Explorer has some issues with
+				them.</p>
+			]]></description>
+			<link>http://willcode4beer.com/tips.jsp?set=bubbleTooltips</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+		</item>
+
+		<item>
+			<pubDate>Wed, 06 Feb 2008 08:08:00 PST</pubDate>
+			<title>Implementing Software Schedules with XML and XSLT</title>
+			<description><![CDATA[
+				<p>
+				I recently picked up the Joel on Software book. After reading his chapter on "Painless Software
+				Schedules", I decided that the schedules could be done with a simple XML file and a nice little XSLT to
+				transform it into (X)HTML.
+				</p>
+				<p>
+				Considering that transformation is built into all of the most popular browsers, anybody should be able
+				to view it without the need to run Excel. Avoiding the startup time for Excel just to view a schedule is
+				just a bonus.
+				</p>
+			]]></description>
+			<link>http://willcode4beer.com/design.jsp?set=sched</link>
+			<author>Paul E. Davis&lt;feedback@willcode4beer.com&gt;</author>
+		</item>
+	</channel>
+
+</rss>
