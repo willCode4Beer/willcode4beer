@@ -1,7 +1,9 @@
 package com.willcode4beer.demo.sax;
 
-import static org.junit.Assert.*;
-import static org.hamcrest.core.Is.*;
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertThat;
+
 import java.io.InputStream;
 import java.util.List;
 
