@@ -9,43 +9,45 @@ import java.util.Map;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import com.willcode4beer.demo.sax.objs.RssItemBuilder;
+
 public class RssHandler extends DefaultHandler {
 
 	private List<RssItem> items = new LinkedList<RssItem>();
-	private RssItem currentItem = new RssItem();
+	private RssItemBuilder builder = RssItemBuilder.instance();
 	private StringBuilder charData = new StringBuilder();
 	
 	@SuppressWarnings("serial")
 	private Map<String,TagWorker> tagWorkers = new HashMap<String, TagWorker>(){{
 		put("item",new TagWorker() {
 			@Override public void handleTag(String data) {
-				items.add(currentItem);
-				currentItem = new RssItem();
+				items.add(builder.getItem());
+				builder.reset();
 			}
 		});
 		put("title",new TagWorker() {
 			@Override public void handleTag(String data) {
-				currentItem.setTitle(data);
+				builder.setTitle(data);
 			}
 		});
 		put("link",new TagWorker() {
 			@Override public void handleTag(String data) {
-				currentItem.setLink(data);
+				builder.setLink(data);
 			}
 		});
 		put("author",new TagWorker() {
 			@Override public void handleTag(String data) {
-				currentItem.setAuthor(data);
+				builder.setAuthor(data);
 			}
 		});
 		put("description",new TagWorker() {
 			@Override public void handleTag(String data) {
-				currentItem.setDescription(data.replaceAll("(\\t)|(\\n)", ""));
+				builder.setDescription(data.replaceAll("(\\t)|(\\n)", ""));
 			}
 		});
 		put("pubDate",new TagWorker() {
 			@Override public void handleTag(String data) {
-				currentItem.setPubDate(data);
+				builder.setPubDate(data);
 			}
 		});
 	}};
