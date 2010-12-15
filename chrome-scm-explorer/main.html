@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>SCM Repository Explorer</title>
+
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="main.css" /> 
+<link rel="stylesheet" type="text/css" href="google-code-prettify/src/prettify.css"/>
+
+<script type="application/ecmascript" src="google-code-prettify/src/prettify.js" ></script>
+
+<script type="application/ecmascript" src="closure-library/closure/goog/base.js" ></script>
+<script type="application/ecmascript" src="scmexplorer.js" ></script>
+<script type="application/ecmascript" src="subversion.js" ></script>
+
+<!--
+<script type="text/javascript">
+
+jQuery.noConflict();
+
+jQuery(document).ready(function(){
+
+jQuery('#showList').click(function() {
+// alert( jQuery.base64Encode("foo") );
+	jQuery.ajax({
+		"type" : "PROPFIND",
+		"url" : jQuery('#url').val(),
+		beforeSend: function (request) {
+			request.setRequestHeader("Content-Type", "text/xml");
+			request.setRequestHeader("Depth", "1");
+		},
+		dataType : "text",
+		// data : '<?xml version="1.0" encoding="utf-8"?><D:options xmlns:D="DAV:"><D:activity-collection-set/></D:options>',
+		data : '<?xml version="1.0" encoding="utf-8"?><propfind xmlns="DAV:"><prop><version-controlled-configuration xmlns="DAV:"/><resourcetype xmlns="DAV:"/><baseline-relative-path xmlns="http://subversion.tigris.org/xmlns/dav/"/><repository-uuid xmlns="http://subversion.tigris.org/xmlns/dav/"/></prop></propfind>',
+		success: function(data, textStatus, xhr){
+			alert(data);
+		}
+	});
+});
+
+});
+
+</script>
+-->
+</head>
+<body onload="scmexplorer.App.start()">
+
+
+<script type="text/javascript" src="analytics.js"></script>
+<script type="text/javascript">
+_gaq.push(['_main']);
+</script>
+</body>
+</html>
+

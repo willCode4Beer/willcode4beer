@@ -1,0 +1,29 @@
+{
+	"locale":{
+		"message":"en"
+	},
+	"name":{
+		"message":"SCM Explorer"
+	},
+	"app_name":{
+		"message":"SCM Explorer"
+	},
+	"app_description":{
+		"message":"A simple tool to traverse source code repositories and color highlight source files."
+	},
+	"app_head":{
+		"message":"SCM Repository Explorer by willCode4Beer"
+	},
+	"params_head":{
+		"message":"Params for the source control system"
+	},
+	"params_username":{
+		"message":"Username: "
+	},
+	"params_password":{
+		"message":"Password: "
+	},
+	"params_url":{
+		"message":"URL: "
+	}
+}
